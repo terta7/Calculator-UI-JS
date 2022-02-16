@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+
+body{
+    background: #E5E5E5;
+}
+
+button{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+}
+
+button:hover {
+    filter: brightness(120%);
+}
+
+.container{
+    width: 364px;
+    height: 582px;
+    background: #17171C;
+    margin: auto;
+    padding: 21px 20px 25px 20px;
+}
+
+.screen {
+    height: 96px;
+    width: 100%;
+    font-family: "Work Sans";
+    font-weight: 300;
+    font-size: 96px;
+    text-align: right;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    /* background-color: #eee; */
+}
+
+.buttons {
+    display: grid;
+    grid-template-areas: 
+    "c c bs div"
+    "seven eight nine mult"
+    "four five six minus"
+    "one two three plus"
+    "zero zero zero equal";
+    grid-gap: 16px;
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+.num {
+    width: 69px;
+    height: 72px;
+    border: none;
+    background: #2E2F38;
+    border-radius: 24px;
+}
+
+.act{
+    width: 69px;
+    height: 72px;
+    border: none;
+    background: #4B5EFC;
+    border-radius: 24px;
+}
+
+.bs{
+    width: 69px;
+    height: 72px;
+    border: none;
+    background: #2E2F38;
+    border-radius: 24px;
+    grid-area: bs;
+}
+
+.c{
+    width: 153.33px;
+    height: 72px;
+    border: none;
+    background: #4E505F;
+    border-radius: 24px;
+    grid-area: c;
+}
+
+.zero{
+    height: 72px;
+    width: 238.3300018310547px;
+    border: none;
+    background: #2E2F38;
+    border-radius: 24px;
+    grid-area: zero;
+}
