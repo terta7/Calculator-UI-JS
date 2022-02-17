@@ -24,7 +24,7 @@ button:hover {
 
 .screen {
     height: 96px;
-    width: 100%;
+    width: 324px;
     font-family: "Work Sans";
     font-weight: 300;
     font-size: 96px;
@@ -32,7 +32,7 @@ button:hover {
     color: #fff;
     margin-top: 0px;
     margin-bottom: 16px;
-    /* background-color: #eee; */
+    border: none;
 }
 
 .buttons {
@@ -46,7 +46,10 @@ button:hover {
     grid-gap: 16px;
     font-family: "Work Sans";
     font-weight: 400;
+    align-items: end;
+    justify-content: start;
 }
+
 .num {
     width: 69px;
     height: 72px;
